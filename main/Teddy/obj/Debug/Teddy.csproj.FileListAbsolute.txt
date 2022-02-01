@@ -1,0 +1,11 @@
+D:\projeler\teddy-new\Teddy-main\Teddy\Teddy\bin\Debug\Teddy.exe.config
+D:\projeler\teddy-new\Teddy-main\Teddy\Teddy\bin\Debug\Teddy.exe
+D:\projeler\teddy-new\Teddy-main\Teddy\Teddy\bin\Debug\Teddy.pdb
+D:\projeler\teddy-new\Teddy-main\Teddy\Teddy\obj\Debug\Teddy.csprojAssemblyReference.cache
+D:\projeler\teddy-new\Teddy-main\Teddy\Teddy\obj\Debug\Teddy.csproj.CoreCompileInputs.cache
+D:\projeler\teddy-new\Teddy-main\Teddy\Teddy\obj\Debug\Teddy.exe
+D:\projeler\teddy-new\Teddy-main\Teddy\Teddy\obj\Debug\Teddy.pdb
+D:\projeler\teddy-new\Teddy-main\Teddy\Teddy\bin\Debug\HtmlAgilityPack.dll
+D:\projeler\teddy-new\Teddy-main\Teddy\Teddy\bin\Debug\HtmlAgilityPack.pdb
+D:\projeler\teddy-new\Teddy-main\Teddy\Teddy\bin\Debug\HtmlAgilityPack.xml
+D:\projeler\teddy-new\Teddy-main\Teddy\Teddy\obj\Debug\Teddy.csproj.CopyComplete
