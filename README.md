@@ -9,6 +9,10 @@ If you want to learn saddle commands, just use the "help" command.
 
 # Updates-0.2
 
+## Development paused
+I'm taking a break from developing this software for now.
+Not sure if I will continue or not.
+
 ## Launcher and version control system deleted
 It may be considered to add them again in future versions, but they are deleted for now.
 

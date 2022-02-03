@@ -13,39 +13,13 @@ namespace Teddy
 {
     class Program
     {
-  
-        static void _eror_1869(){
+        static void _hle(string user_name){
+            Console.WriteLine("This feature is currently unavailable");
+        }
+        static void _eror_404(){
             Console.WriteLine("Eror");
             Console.WriteLine("The default location is incorrect. Please make sure it is installed on your computer and you are on the latest version");
         }
-        static void _true_version(){
-            Console.WriteLine("");
-        }
-
-        static void _wrong_version(){
-            Console.WriteLine("There is a new version");
-            Process.Start("");
-        }
-        static void _version_control(){
-            string ctrl_address = "https://github.com/berat0123/0.1";
-            try
-            {
-                WebRequest wr = HttpWebRequest.Create(ctrl_address);
-                WebResponse wp;
-                wp = wr.GetResponse();
-                StreamReader rn_in = new StreamReader(wp.GetResponseStream());
-                string str = rn_in.ReadToEnd();
-                int tt = str.IndexOf("<title>") + 17;
-                int web_tt = str.Substring(tt).IndexOf("</title>");
-                string web_title = str.Substring(tt, web_tt);
-                Console.WriteLine("You are on the latest version");
-            }
-            catch
-            {
-                _wrong_version();
-            }
-        }
-
         static void _licence(){
             Console.WriteLine("You are redirected to license page");
             Process.Start("https://github.com/berat0123/Teddy/blob/main/LICENSE");
@@ -126,12 +100,12 @@ namespace Teddy
                     if(reply=="version"){
                         Console.WriteLine(version);
                     }
+                    else if(reply=="hle"){
+                        _hle(user_name);
+                    }
                     else if (reply == "help")
                     {
                         _help();
-                    }
-                    else if(reply=="version control"){
-                        _version_control();
                     }
                     else if (reply == "lisance")
                     {
@@ -147,7 +121,7 @@ namespace Teddy
                             Process.Start(src);
                         }
                         else{
-                            _eror_1869();
+                            _eror_404();
                         }
                     }
                     else if(reply=="cmd"){
@@ -156,7 +130,7 @@ namespace Teddy
                             Process.Start(src);
                         }
                         else{
-                            _eror_1869();
+                            _eror_404();
                         }
                     }
                     else if(reply=="open source"){
@@ -174,7 +148,7 @@ namespace Teddy
                             Process.Start(src);
                         }
                         else{
-                            _eror_1869();
+                            _eror_404();
                         }
                     }
                     else if(reply=="paint"){
@@ -184,7 +158,7 @@ namespace Teddy
                             Process.Start(src);
                         }
                         else{
-                            _eror_1869();
+                            _eror_404();
                         }
                     }
                     else if(reply=="calculator"){
@@ -194,7 +168,7 @@ namespace Teddy
                             Process.Start(src);
                         }
                         else{
-                            _eror_1869();
+                            _eror_404();
                         }
                     }
                     else if(reply=="time"){
